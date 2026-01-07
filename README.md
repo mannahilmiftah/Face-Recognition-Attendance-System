@@ -1,7 +1,7 @@
 # Face Recognition Attendance System
 
 ## Project Overview
-This project is a fully automatic face recognition–based attendance system that uses deep learning face embeddings (FaceNet) combined with a Support Vector Machine (SVM) classifier to identify individuals in real time and record attendance without any manual intervention.
+This project is a fully automatic face recognition based attendance system that uses deep learning face embeddings (FaceNet) combined with a Support Vector Machine (SVM) classifier to identify individuals in real time and record attendance without any manual intervention.
 
 Unlike traditional pixel-based methods (e.g., KNN on raw images), this system follows a real-world biometric recognition pipeline:
 - Deep CNN–based feature extraction
@@ -70,6 +70,16 @@ Unlike traditional pixel-based methods (e.g., KNN on raw images), this system fo
 - Prevents duplicate entries using cooldown logic
   
 ### ▶️ How to Run the Project
+
+Create virtual environment
+```python
+python -m venv myvenv # for windows
+```
+Activate the environment
+```python
+.\myvenv\Scripts\Activate #for windows
+```
+
 #### Step 1: Install Dependencies
 ```python
 pip install -r requirements.txt
